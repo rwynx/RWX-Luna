@@ -56,8 +56,11 @@ If you use emojis in channel names like me `🎤・chat` for example, it might l
 | **Explorer Bliss** | <img src="https://raw.githubusercontent.com/rwynx/RWX-Luna/main/assets/RWX-Luna-ExplorerBliss.png" width="56" height="56" /> | `RWX-Luna-ExplorerBliss.theme.css` |
 
 #### **How to switch this logo in Vencord:**
- Simply place the optional file into your `themes/` folder and toggle it **ON** in `Client Settings → Themes`.
+ 1. Download all 3 of them, simply turn off the default theme and toggle the other one **ON** in `Client Settings > Themes`.
+2. If you are using it via `Online Themes`, change the link to an `addon`:
 
+**For Glassy Aero:** *`https://raw.githubusercontent.com/rwynx/RWX-Luna/main/addons/RWX-Luna-GlassyAero.theme.css`*<br>
+**For Explorer Bliss:** *`https://raw.githubusercontent.com/rwynx/RWX-Luna/main/addons/RWX-Luna-ExplorerBliss.theme.css`*
 ## Installation
 
 ### Vencord (Auto Updates)
@@ -65,10 +68,9 @@ If you use emojis in channel names like me `🎤・chat` for example, it might l
 1. Open Discord settings and head to **Vencord** > **Themes**.
 2. Under **Online Themes**, paste:
    ```text
-   https://rwynx.github.io/RWX-Luna/RWX-Luna.css
+   https://raw.githubusercontent.com/rwynx/RWX-Luna/main/RWX-Luna.css
    ```
-   *(or `https://rwyn.ch/RWX-Luna/RWX-Luna.css`)*
-3. Enable the theme and you're good to go.
+3. And you're good to go.
 
 ### BetterDiscord & Vencord (Manual)
 
@@ -76,7 +78,7 @@ If you use emojis in channel names like me `🎤・chat` for example, it might l
 2. Open your Discord themes folder:
    - **BetterDiscord:** `User Settings` > `Themes` > `Open Themes Folder`
    - **Vencord:** `User Settings` > `Vencord` > `Themes` > `Open Themes Folder`
-3. Drop `RWX-Luna.theme.css` inside.
+3. Drop `RWX-Luna.theme.css` *(or a variant)* inside.
 4. Toggle **RWX Luna** on in your themes list.
 
 ### Replugged
