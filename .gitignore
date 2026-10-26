@@ -1,0 +1,29 @@
+# pbsolete reference archives
+obsolete/
+
+# private testing assets & large raw wallpapers
+assets/private-testing/
+*.bmp
+*.zip
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# editor & IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# temporary & logs 
+*.log
+*.tmp
+scratch/
+__pycache__/
+*.py[cod]
+

@@ -1,0 +1,247 @@
+/**
+ * RWX-Luna - Vencord Client Options
+ * Author: rwyn (@rwyn)
+ * Repository: https://github.com/rwynx/RWX-Luna
+ *
+ * A Windows XP Luna theme that will hopefully take you back to the old, simpler times.
+ */
+
+/* vencord settings */
+
+:is(
+    [class*="vc-card-base"],
+    .vc-card-base,
+    [class*="vc-card-normal"],
+    .vc-card-normal,
+    [class*="vc-card-"],
+    [class*="vc-settings-card"],
+    .vc-settings-card,
+    [class*="vc-addon-card"],
+    .vc-addon-card
+) {
+    background: #ffffff !important;
+    border: 1px solid var(--luna-border-inset, #7f9db9) !important;
+    border-radius: 3px !important;
+    color: var(--luna-text, #1b1b1b) !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+}
+
+:is(
+    [class*="vc-settings-quickActions-card"],
+    .vc-settings-quickActions-card
+) {
+    background: #ece9d8 !important;
+    border: 1px solid #7f9db9 !important;
+    border-radius: 3px !important;
+    padding: 8px 12px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06) !important;
+}
+
+:is([class*="vc-addon-card-disabled"], .vc-addon-card-disabled) {
+    background: #f7f6f0 !important;
+    opacity: 0.8 !important;
+}
+
+:is(
+    [class*="vc-card-"],
+    .vc-card-base,
+    [class*="vc-settings-card"],
+    [class*="vc-addon-card"]
+) :is(h2, h3, h4, h5, [class*="title_"], [class*="name_"], strong) {
+    color: var(--luna-text-navy, #0c327d) !important;
+    font-weight: 700 !important;
+}
+
+:is(
+    [class*="vc-card-"],
+    .vc-card-base,
+    [class*="vc-settings-card"],
+    [class*="vc-addon-card"]
+) :is(p, span, [class*="description_"], [class*="author_"], [class*="text_"]) {
+    color: var(--luna-text-slate, #2c3e50) !important;
+}
+
+:is(
+    [class*="vc-card-"],
+    .vc-card-base,
+    [class*="vc-settings-card"],
+    [class*="vc-addon-card"]
+) a {
+    color: var(--luna-text-link, #0753a5) !important;
+    text-decoration: underline !important;
+}
+:is(
+    [class*="vc-card-"],
+    .vc-card-base,
+    [class*="vc-settings-card"],
+    [class*="vc-addon-card"]
+) a:hover {
+    color: #0054e3 !important;
+}
+
+/* vencord buttons */
+:is(
+    [class*="vc-btn"],
+    .vc-btn,
+    [class*="vc-settings-quickActions-pill"],
+    .vc-settings-quickActions-pill,
+    [class*="vc-settings"] button,
+    [class*="vc-addon"] button
+) {
+    background: var(--luna-button-grad) !important;
+    border: 1px solid var(--luna-border-inset, #7f9db9) !important;
+    border-radius: 3px !important;
+    color: var(--luna-text-navy, #0c327d) !important;
+    font-family: var(--luna-font) !important;
+    font-weight: 600 !important;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.7) inset !important;
+}
+
+:is(
+    [class*="vc-btn"],
+    .vc-btn,
+    [class*="vc-settings-quickActions-pill"],
+    .vc-settings-quickActions-pill,
+    [class*="vc-settings"] button,
+    [class*="vc-addon"] button
+):hover {
+    background: var(--luna-button-hover-grad) !important;
+    border-color: #0054e3 !important;
+    color: #003db3 !important;
+}
+
+:is(
+    [class*="vc-btn"],
+    .vc-btn,
+    [class*="vc-settings-quickActions-pill"],
+    .vc-settings-quickActions-pill,
+    [class*="vc-settings"] button,
+    [class*="vc-addon"] button,
+    [class*="vc-settings-quickActions-card"]
+) :is(svg, [class*="vc-settings-quickActions-img"], [class*="vc-icon"], [class*="vc-folder-icon"]) {
+    color: var(--luna-text-navy, #0c327d) !important;
+    fill: var(--luna-text-navy, #0c327d) !important;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+:is(
+    [class*="vc-btn"],
+    .vc-btn,
+    [class*="vc-settings-quickActions-pill"],
+    .vc-settings-quickActions-pill,
+    [class*="vc-settings"] button,
+    [class*="vc-addon"] button,
+    [class*="vc-settings-quickActions-card"]
+) :is(svg, [class*="vc-settings-quickActions-img"], [class*="vc-icon"], [class*="vc-folder-icon"]) :is(path, g, polygon, circle) {
+    color: var(--luna-text-navy, #0c327d) !important;
+    fill: var(--luna-text-navy, #0c327d) !important;
+}
+
+:is(
+    [class*="vc-btn"],
+    .vc-btn,
+    [class*="vc-settings-quickActions-pill"],
+    .vc-settings-quickActions-pill,
+    [class*="vc-settings"] button,
+    [class*="vc-addon"] button,
+    [class*="vc-settings-quickActions-card"]
+):hover :is(svg, [class*="vc-settings-quickActions-img"], [class*="vc-icon"], [class*="vc-folder-icon"]) {
+    color: #0054e3 !important;
+    fill: #0054e3 !important;
+}
+
+:is(
+    [class*="vc-btn"],
+    .vc-btn,
+    [class*="vc-settings-quickActions-pill"],
+    .vc-settings-quickActions-pill,
+    [class*="vc-settings"] button,
+    [class*="vc-addon"] button,
+    [class*="vc-settings-quickActions-card"]
+):hover :is(svg, [class*="vc-settings-quickActions-img"], [class*="vc-icon"], [class*="vc-folder-icon"]) :is(path, g, polygon, circle) {
+    color: #0054e3 !important;
+    fill: #0054e3 !important;
+}
+
+:is(
+    [class*="vc-card-warning"],
+    .vc-card-warning,
+    [class*="vc-notification"],
+    [class*="vc-settings-card"][class*="warning"],
+    [class*="notice_"]
+) {
+    background: #ffffe1 !important;
+    border: 1px solid #d4a017 !important;
+    border-radius: 3px !important;
+    color: #332b00 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+:is(
+    [class*="vc-card-warning"],
+    .vc-card-warning,
+    [class*="vc-notification"],
+    [class*="vc-settings-card"][class*="warning"],
+    [class*="notice_"]
+) :is(h2, h3, h4, h5, [class*="title_"], strong) {
+    color: #0c327d !important;
+    font-weight: 700 !important;
+}
+:is(
+    [class*="vc-card-warning"],
+    .vc-card-warning,
+    [class*="vc-notification"],
+    [class*="vc-settings-card"][class*="warning"],
+    [class*="notice_"]
+) :is(p, span, div) {
+    color: #332b00 !important;
+}
+:is(
+    [class*="vc-card-warning"],
+    .vc-card-warning
+) code {
+    background: #f0e8b8 !important;
+    border: 1px solid #c8b870 !important;
+    border-radius: 2px !important;
+    padding: 1px 4px !important;
+    color: #0c327d !important;
+    font-weight: 600 !important;
+}
+
+:is([class*="vc-card-danger"], .vc-card-danger, [class*="vc-error-card"], .vc-error-card) {
+    background: #fff0f0 !important;
+    border: 1px solid #e06060 !important;
+    color: #800000 !important;
+}
+:is([class*="vc-card-success"], .vc-card-success) {
+    background: #f0fff0 !important;
+    border: 1px solid #60b060 !important;
+    color: #006000 !important;
+}
+:is([class*="vc-card-info"], .vc-card-info) {
+    background: #f0f6ff !important;
+    border: 1px solid #7f9db9 !important;
+    color: #0c327d !important;
+}
+
+:is([class*="vc-settings-tab"], [class*="tabBar_"]) :is([class*="item_"], [role="tab"]) {
+    color: var(--luna-text-muted, #4b4b4b) !important;
+    font-family: var(--luna-font) !important;
+    font-size: 13px !important;
+}
+
+:is([class*="vc-settings-tab"], [class*="tabBar_"]) :is([class*="item_"][class*="selected_"], [role="tab"][aria-selected="true"]) {
+    color: var(--luna-blue-dark, #0054e3) !important;
+    font-weight: 700 !important;
+    border-bottom: 2px solid var(--luna-blue-dark, #0054e3) !important;
+}
+
+:is([class*="vc-addon-search"], [class*="vc-settings"] input) {
+    background: #ffffff !important;
+    border: 1px solid var(--luna-border-inset, #7f9db9) !important;
+    border-radius: 2px !important;
+    color: #1b1b1b !important;
+}
+

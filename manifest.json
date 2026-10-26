@@ -1,0 +1,15 @@
+{
+  "id": "com.rwyn.rwx-luna",
+  "name": "RWX Luna",
+  "description": "A Windows XP Luna inspired Discord theme that will take you back to the old, simpler times.",
+  "version": "1.0.0",
+  "author": {
+    "name": "rwyn",
+    "discordID": "rwyn",
+    "github": "rwynx"
+  },
+  "type": "theme",
+  "main": "RWX-Luna.theme.css",
+  "license": "GPL-3.0"
+}
+
