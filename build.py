@@ -110,6 +110,10 @@ def build() -> bool:
             (MAIN_CSS, os.path.join(VENCORD_THEMES_DIR, "RWX-Luna-Rework.css")),
             (LOADER_CSS, os.path.join(VENCORD_THEMES_DIR, "RWX-Luna.theme.css")),
         ]
+        if os.path.isdir(ADDONS_DIR):
+            for af in os.listdir(ADDONS_DIR):
+                if af.endswith(".css"):
+                    targets.append((os.path.join(ADDONS_DIR, af), os.path.join(VENCORD_THEMES_DIR, af)))
         for src, target in targets:
             if os.path.exists(src):
                 try:

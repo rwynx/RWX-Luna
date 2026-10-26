@@ -24,7 +24,7 @@
 <br>
 
 <p align="center">
-  <img src="showcase/RWXLuna-Showcase.png" width="70%" alt="RWX Luna Showcase" style="box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); border-radius: 8px;">
+  <img src="showcase/RWXLuna-ShowcaseFull.png" width="70%" alt="RWX Luna Showcase" style="box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); border-radius: 8px;">
 </p>
 
 

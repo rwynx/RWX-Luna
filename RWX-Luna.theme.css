@@ -11,7 +11,10 @@
 @import url("https://raw.githubusercontent.com/rwynx/RWX-Luna/main/RWX-Luna.css");
 
 /* user custom & variables*/
-:root {
+:root,
+.theme-dark,
+.theme-light,
+#app-mount {
     /* bliss.bmp default */
     --luna-wallpaper: url("https://raw.githubusercontent.com/bartekl1/windows-ui-assets/21970f48b8f66b4d44742cb30388c1454512d681/Wallpapers/Windows%20XP/Desktop/Bliss.bmp");
 
